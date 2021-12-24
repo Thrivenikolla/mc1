@@ -11,13 +11,13 @@ stages:
       maxParallel: 0
       matrix:
         JOB1:
-          Version: 1
+          Version: 1.1
           AppName: one
         JOB2:
-          Version: 2
+          Version: 2.1
           AppName: two
         JOB3:
-          Version: 3
+          Version: 3.1
           AppName: three
     steps:
     -script:

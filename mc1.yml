@@ -12,13 +12,13 @@ stages:
       matrix:
         JOB1:
           Version: 1.1
-          AppName: one
+          AppName: abc
         JOB2:
           Version: 2.1
-          AppName: two
+          AppName: def
         JOB3:
           Version: 3.1
-          AppName: three
+          AppName: ghi
     steps:
     -script:
       echo "$(Version)"
